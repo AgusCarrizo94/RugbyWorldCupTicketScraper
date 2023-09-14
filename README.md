@@ -37,7 +37,7 @@ Set the chat code from the whatsapp chat or group and replace CHATCODE.
 import pywhatkit
 
 def whatsAppMessage(message):
-    pywhatkit.sendwhatmsg_to_group_instantly(CHATCODE, message, tab_close=True)
+    pywhatkit.sendwhatmsg_to_group_instantly("CHATCODE", message, tab_close=True)
 ```
 Run main.py in bash.
 
